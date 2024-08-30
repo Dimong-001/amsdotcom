@@ -28,7 +28,7 @@
             <a 
               href="javascript:void(0)" 
               @click="toggleSubMenu('society')"
-              class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600"
+              class="nav-link font-khmer pb-2 border-b-4 border-transparent"
             >
               សង្គម
             </a>
@@ -38,7 +38,7 @@
             <a 
               href="javascript:void(0)" 
               @click="toggleSubMenu('politic')"
-              class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600"
+              class="nav-link font-khmer pb-2 border-b-4 border-transparent"
             >
               នយោបាយ
             </a>
@@ -48,15 +48,16 @@
             <a 
               href="javascript:void(0)" 
               @click="toggleSubMenu('education')"
-              class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600"
+              class="nav-link font-khmer pb-2 border-b-4 border-transparent"
             >
               អប់រំ
             </a>
           </li>
           <!-- Additional Menu Items -->
-          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600">កីឡា</a></li>
-          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600">កម្សាន្ត</a></li>
-          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent hover:border-red-600">អំពីក្រុមហ៊ុន</a></li>
+          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent">កីឡា</a></li>
+          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent">កម្សាន្ត</a></li>
+          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent">អរិយធម៌ខ្មែរ</a></li>
+          <li><a href="#" class="nav-link font-khmer pb-2 border-b-4 border-transparent">អំពីក្រុមហ៊ុន</a></li>
         </ul>
       </nav>
 
