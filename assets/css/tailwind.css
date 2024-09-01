@@ -4,27 +4,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
 
-.font-khmer {
+/* Define custom styles in a `@layer` directive */
+@layer utilities {
+  .font-khmer {
     font-family: 'Battambang', sans-serif;
   }
+
   .nav-link {
-    @apply font-battambang text-[15px] text-white hover:text-white hover:border-b-4 hover:text-white hover:border-white;
+    @apply font-khmer text-[15px] text-white hover:text-white hover:border-b-4 hover:border-white;
+    transition: all 0.3s ease;
   }
-  
+
   .right-button {
-    @apply font-battambang text-[15px] text-white hover:text-white;
+    @apply font-khmer text-[15px] text-white hover:text-white;
   }
-  
-  /* Optional: Adjust the icon size if needed */
+
   .right-button i {
     @apply text-lg;
     @apply text-white hover:text-white;
   }
-
-  /* .myDiv {
-    width: 200px;
-    height: 100px;
-  } */
-  .nav-link {
-    transition: all 0.3s ease;
-  }
+}
