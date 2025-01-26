@@ -50,12 +50,7 @@
         <div class="mb-6">
           <h2 class="text-xl font-bold mb-4 font-battambang">វីដេអូ</h2>
           <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg">
-            <iframe
-              src="https://www.youtube.com/embed/example"
-              frameborder="0"
-              class="w-full h-full rounded-lg"
-              allowfullscreen
-            ></iframe>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5vNRhkKd0yEAg8suGBpjeY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
         </div>
 
